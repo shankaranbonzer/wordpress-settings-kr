@@ -3,4 +3,4 @@ wordpress
 
 Simple wordpress plugins
 
-~Current Version:1.0.0~
+~Current Version:1.1.0~
