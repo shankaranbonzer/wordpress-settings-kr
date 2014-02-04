@@ -18,7 +18,7 @@ $spCustomSettings = get_option('spCustomSettings');
 
 ?>
 <div class="wrap">
-    <h2>Kindred Settings</h2>
+    <h2> Settings</h2>
     <?php settings_errors('', true,true);?>
     <form action="options.php" method="POST">
         <?php settings_fields('wp_sp_settings_group'); ?>
