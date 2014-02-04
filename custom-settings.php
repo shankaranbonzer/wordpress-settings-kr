@@ -2,7 +2,7 @@
 /*
 Plugin Name: Custom Settings
 Plugin URI: https://github.com/shankaranbonzer/wordpress
-Description: Provide Custom settings for kindred
+Description: Provide Custom settings for kr
 Version: 1.1
 Author: Shankaran Patel
 Author URI: http://bonzertech.com
@@ -11,7 +11,7 @@ License: GPLv2
 
 /**
  *
- * @package Kindred
+ * @package 
  * @author Shankaran Patel
  * @since 1.3
  * @version 1.5
@@ -60,7 +60,7 @@ function sp_custom_settings_form()
 // admin menu
 function sp_custom_settings_menu()
 {
-    add_options_page('kindredCustomSetting', ' Kindred Settings', 'manage_options', 'kindred-settings', 'sp_custom_settings_form');
+    add_options_page('krCustomSetting', '  Settings', 'manage_options', 'kr-settings', 'sp_custom_settings_form');
 }
 
 add_action('admin_menu', 'sp_custom_settings_menu');
